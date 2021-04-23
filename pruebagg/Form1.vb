@@ -4,4 +4,8 @@
         Form2.Show()
 
     End Sub
+
+    Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles TextBox1.TextChanged
+        TextBox1.Text = "hola"
+    End Sub
 End Class
